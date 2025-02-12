@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer utilities {
+  .nav-link {
+    @apply block py-2 px-4 md:px-0 text-[#333333] hover:text-[#6AC680] duration-300 font-montserrat;
+  }
+
+  #services h3 {
+    @apply text-[20px] sm:text-[24px] md:text-[28.83px] mt-[20px] md:mt-[70px] mb-[16.2px];
+  }
+
+  #services ul {
+    @apply flex flex-col gap-[16.2px] text-[14px] sm:text-[15px] sm:text-[17.16px];
+  }
+
+  #services li {
+    @apply relative ps-8 before:absolute before:bg-contain before:bg-no-repeat before:content-[''] before:w-[14px] before:h-[14px] before:left-0 before:top-[6px];
+  }
+
+  .price-item {
+    @apply w-[120px] lg:w-[142px] h-[120px] lg:h-[142px] flex flex-col gap-[9px] items-center justify-center rounded-[50%] bg-[rgb(255,255,255,0.2)];
+  }
+
+  .footer-menu {
+    @apply flex flex-col gap-[5px];
+  }
+
+  .footer-menu li {
+    @apply flex items-center before:content-[''] before:w-2 before:h-3  before:bg-contain before:bg-no-repeat before:mr-5 font-lato text-[#999999];
+  }
+}

@@ -1,0 +1,23 @@
+#hero {
+  background-image: url("./img/hero-bg.webp");
+}
+
+.footer-menu li::before {
+  background-image: url("./img/arrow-right.svg");
+}
+
+#green-bg {
+  background-image: url("./img/green-bg.png");
+}
+
+.contact-bg {
+  background-image: url("./img/contact-bg.png");
+}
+
+#services li::before {
+  background-image: url("./img/tick.svg");
+}
+
+#price {
+  background-image: url("./img/prize-bg.webp");
+}
