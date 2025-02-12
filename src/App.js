@@ -15,8 +15,8 @@ function App() {
         <Route exact path="/" element={<Home />}></Route>
         <Route path="/about" element={<About />}></Route>
         <Route path="/contact" element={<Contact />}></Route>
-        <Route path="/privacy-policy" element={<PrivacyPolicy />}></Route>
-        <Route path="/terms" element={<TermsAndConditions />}></Route>
+        <Route path="/cgv" element={<PrivacyPolicy />}></Route>
+        <Route path="/cgu" element={<TermsAndConditions />}></Route>
       </Routes>
       <Footer />
     </BrowserRouter>

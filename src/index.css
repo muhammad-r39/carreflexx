@@ -31,22 +31,27 @@
     @apply flex items-center before:content-[''] before:w-2 before:h-3  before:bg-contain before:bg-no-repeat before:mr-5 font-lato text-[#999999];
   }
 
+  .privacy h2,
   .toc h2 {
     @apply font-montserrat text-[24px] sm:text-[32px] mt-10 mb-5;
   }
 
+  .privacy h3,
   .toc h3 {
     @apply font-montserrat text-[20px] sm:text-[28px] mt-10 mb-5;
   }
 
+  .privacy h4,
   .toc h4 {
     @apply font-montserrat text-[18px] sm:text-[22px] mt-10;
   }
 
+  .privacy p,
   .toc p {
     @apply text-[1rem] sm:text-[1.2rem] font-inter mb-5;
   }
 
+  .privacy ul,
   .toc ul {
     @apply text-[1rem] sm:text-[1.2rem] font-inter list-disc ps-5 mb-5;
   }

@@ -45,16 +45,16 @@ const Footer = () => {
             </h3>
             <ul className="footer-menu">
               <li>
-                <Link to="#">Contactez nous</Link>
+                <Link to="/contact">Contactez nous</Link>
               </li>
               <li>
                 <Link to="#">Lire FAQs</Link>
               </li>
               <li>
-                <Link to="/terms">Termes et Conditions</Link>
+                <Link to="/cgu">Termes et Conditions</Link>
               </li>
               <li>
-                <Link to="#">CGV</Link>
+                <Link to="/cgv">CGV</Link>
               </li>
               <li>
                 <Link to="#">Nos Prix</Link>
