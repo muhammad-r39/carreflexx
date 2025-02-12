@@ -9,7 +9,7 @@ const Header = () => {
   };
 
   return (
-    <header className="relative shadow-sm">
+    <header className="relative shadow-sm z-30">
       <div className="mx-auto flex justify-between items-center py-[30px] 2xl:py-[47px] px-[30px] md:px-[50px] 2xl:px-[94px]">
         {/* Logo */}
         <div className="site-branding">

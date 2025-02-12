@@ -65,7 +65,7 @@ const Footer = () => {
       </div>
       <div className="relative">
         <div className="font-lato text-center w-full sm:w-1/2 lg:w-full pt-[50px] sm:pt-[90px] pb-[70px] px-10 mx-auto">
-          © 2022 Renroll Scooters & Bikes Rental. All rights reserved.
+          © CarreFlexx SAS 2025. All rights reserved.
         </div>
         <div className="relative mx-[30px] lg:mx-[60px] border-t border-[#303030] h-8 hidden sm:block">
           <img

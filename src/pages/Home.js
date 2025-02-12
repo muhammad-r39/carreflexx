@@ -29,7 +29,7 @@ const Home = () => {
           <div className="flex flex-col md:flex-row gap-[30px] z-10">
             <div className="md:w-1/3 relative bg-[#FFF6EB] text-[#333333] font-montserrat text-[17.16px] p-10 pb-8 text-left">
               <h3 className="max-w-[150px] mb-[26px]">
-                Visibilié pour les loueur
+                Visibilié pour les loueurs
               </h3>
               <img src="img/scotty-list.webp" alt="Visibilié pour les loueur" />
               <span className="absolute bottom-10 md:bottom-0 right-10 md:-right-[10px] text-[140px] lg:text-[177px] leading-[0.71] text-white">
@@ -173,8 +173,8 @@ const Home = () => {
             src="img/scotty-icon.svg"
             alt="scotty"
           />
-          <h3 className="text-white font-montserrat text-[20px] xs:text-[24px] lg:text-[28px] w-[310px] max-w-full">
-            Pour une gestion rentable et optimisé
+          <h3 className="text-white font-montserrat text-[20px] xs:text-[24px] lg:text-[28px] w-[340px] max-w-full">
+            Pour une gestion rentable et optimisée
           </h3>
         </div>
         <img
