@@ -44,6 +44,11 @@ const Contact = () => {
   return (
     <main>
       <section className=" md:pt-[100px] pb-[80px] md:pb-[200px]">
+        <div className="w-[1012px] max-w-full mx-auto px-[30px] pt-[60px] pb-10 md:pb-20">
+          <h1 className="font-montserrat text-[28px] sm:text-[38.28px] text-center">
+            Nous Contacter
+          </h1>
+        </div>
         <div className="relative w-[870px] max-w-full px-[30px] mx-auto text-center">
           <form className="flex flex-col gap-4" onSubmit={handleSubmit}>
             <input
