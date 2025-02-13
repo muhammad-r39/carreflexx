@@ -48,16 +48,10 @@ const Footer = () => {
                 <Link to="/contact">Contactez nous</Link>
               </li>
               <li>
-                <Link to="#">Lire FAQs</Link>
-              </li>
-              <li>
-                <Link to="/cgu">Termes et Conditions</Link>
+                <Link to="/cgu">CGU</Link>
               </li>
               <li>
                 <Link to="/cgv">CGV</Link>
-              </li>
-              <li>
-                <Link to="#">Nos Prix</Link>
               </li>
             </ul>
           </div>
@@ -65,7 +59,7 @@ const Footer = () => {
       </div>
       <div className="relative">
         <div className="font-lato text-center w-full sm:w-1/2 lg:w-full pt-[50px] sm:pt-[90px] pb-[70px] px-10 mx-auto">
-          © CarreFlexx SAS 2025. All rights reserved.
+          © CarreFlexx SAS 2025.
         </div>
         <div className="relative mx-[30px] lg:mx-[60px] border-t border-[#303030] h-8 hidden sm:block">
           <img

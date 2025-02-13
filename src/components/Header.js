@@ -68,15 +68,6 @@ const Header = () => {
             </li>
             <li>
               <Link
-                to="/about"
-                className="nav-link"
-                onClick={() => setMenuOpen(false)}
-              >
-                À PROPOS
-              </Link>
-            </li>
-            <li>
-              <Link
                 to="/contact"
                 className="nav-link"
                 onClick={() => setMenuOpen(false)}
